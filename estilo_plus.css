@@ -1,0 +1,101 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+#logo{
+  max-width: 90%;
+  min-width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lateral{
+  width: 22%;
+  min-width: 300px;
+  float: left;
+  height: 90%;
+}
+
+.link{
+  width: 90%;
+  height: auto;
+  color: #f1f1f1;
+  background-color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 20px 0px;
+  font-size: 18px;
+  border-bottom: 2px solid #f1f1f1;
+  border-left: 6px solid #333;
+  border-right: 6px solid #333;
+}
+
+.link:hover{
+  color: #4CAF50;
+}
+
+#coluna1{
+  margin-left: 2%;
+  width: auto;
+  float: left;
+  color: #232;
+  margin-bottom: 10px;
+}
+.texto{
+  border-top:  2px solid #333;
+  border-bottom:  2px solid #333;
+  border-left:  2px solid #333;
+  padding: 6px;
+  margin-left: 2%;
+  max-width: auto;
+  float: right;
+  clear: right;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: block;
+}
+
+body{
+  background-color: #222;
+}
+
+#titulo{
+  color: #666;
+}
+
+.paragrafo{
+  font-size: 18px;
+  color: #444;
+}
+
+footer{
+  width: 100%;
+  height: 10%;
+  clear: both;
+  text-align: center;
+  padding: 20px 0px;
+  background: #232;
+  border-top: 4px solid #222;
+}
+
+@media screen and (max-width: 750px) {
+  .lateral, #logo, .link{
+    transition: width .8s;
+    width: 100%;
+    overflow: hidden;
+  }
+  .lateral{
+      margin-bottom: 10px;
+      min-width: 0px;
+  }
+  footer{
+      overflow: hidden;
+  }
+
+  .texto{
+
+  }
+}

@@ -1,0 +1,109 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#iflogo{
+max-width: 80%;
+min-width: 60%;
+}
+
+h1{
+  color: blue;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+  width: 350px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button, #cancel {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-decoration: none;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#cancel {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+#centro{
+width: 40%;
+
+}
+
+
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  #cancel {
+     width: 100%;
+  }
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#rodape{
+  margin-top: 20px;
+  width: 100%;
+  background-color: #4CAF50;
+  text-align: center;
+  font-family: 'Arial';
+  color: #f1f1f1;
+  clear: both;
+  padding: 15px 0px;
+}
