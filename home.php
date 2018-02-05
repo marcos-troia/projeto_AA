@@ -62,8 +62,8 @@
 		<div id="engloba">
 			<div id="galeria">
 				<img class="foto" src="img/022.jpg" width="718px" height="408px">
-				<img class="foto" src="img/02.jpg">
-				<img class="foto" src="img/03.jpg">
+				<img class="foto" src="img/foto006.jpg" width="718px" height="408px">
+				<img class="foto" src="img/foto005.jpg" width="718px" height="408px">
 			</div>
 		</div>
 	</article>
